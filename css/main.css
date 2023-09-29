@@ -1,3 +1,4 @@
+/* Core stsyles */
 body {
     font-family: sans-serif;
 }
@@ -5,6 +6,13 @@ body {
     width: 1140px;
     margin: 0 auto;
 }
+.clearfix {
+    clear: both;
+}
+.to-uppercase {
+    text-transform: uppercase;
+}
+/* Header section */
 .main-header__brand img {
     width: 64px;
 }
@@ -38,4 +46,46 @@ body {
 }
 .main-nav__item.active a{
     color: #efb6df;
+}
+
+/* Main section */
+#main {
+    padding: 100px 30px;
+}
+.main > div {
+    width: 50%;
+    float: left;
+}
+.main-image{
+    text-align: right;
+}
+.main-info__welcome {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #79797979;
+    letter-spacing: 2px;
+}
+.main-info__intro{
+    color: #05364e;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+.main-info__position {
+    color: #05364d;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+.main-info__action {
+    margin-top: 30px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
 }
