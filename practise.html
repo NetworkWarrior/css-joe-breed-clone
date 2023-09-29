@@ -5,26 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #container {
-            border: 1px solid black;
-            padding: 10px;
-        }
-        #container > span {
-            /* display: inline-block; */
-            float: auto;
-            height: 100px;
-            width: 100px;
-            margin: 20px;
-            background-color: red;
+        table {
+            border-collapse: separate; /* This makes borders separated */
+            border-spacing: 30px 0px; /* Adjust the second value to control vertical spacing */
+            }
 
+        th, td {
+            padding: 8px;
+            background-color: red;
+            height: 50px;
+            width: 140px;
+            vertical-align: bottom;
+            padding-bottom: 0;
+        }
+        td {
+            padding-top: 0;
+            text-align: center;
+            vertical-align: top;
         }
     </style>
 </head>
 <body>
-    <div id="container">
-        <span>box</span>
-        <span>box2</span>
-        <span>box3</span>
-    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    gg
+                </th>
+                <th>
+                    dd
+                </th>
+                <th>
+                    hh
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    jj
+                </td>
+                <td>
+                    kk
+                </td>
+                <td>
+                    ll
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
