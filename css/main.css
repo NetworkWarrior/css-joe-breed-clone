@@ -12,6 +12,46 @@ body {
 .to-uppercase {
     text-transform: uppercase;
 }
+.section-subtitle {
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+.section-title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:#05364d;
+}
+.button {
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background: rgba(237,35,159,0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+.section-description {
+    font-size:14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+}
 /* Header section */
 .main-header__brand img {
     width: 64px;
@@ -19,9 +59,6 @@ body {
 .main-header__brand {
     display: inline-block;
     vertical-align: middle;
-}
-.main-header__brand {
-    display: inline;
 }
 .main-nav {
     display: inline-block;
@@ -70,13 +107,15 @@ body {
     color: #05364e;
     font-size: 50px;
     font-weight: 500;
+    margin-top: 5px;
     margin-bottom: 20px
 }
 .main-info__position {
     color: #05364d;
     font-size: 22px;
     font-weight: 300px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 .main-info__social {
     color: #05363E;
@@ -97,14 +136,6 @@ body {
 
 .main-info__action {
     margin-top: 30px;
-    border: none;
-    background-color: blue;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 20px 40px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 /* Statistics section */
@@ -132,4 +163,92 @@ body {
     font-size: 16px;
     color: #797979;
     font-weight: 300;
+}
+
+/* About-me section */
+.about-me {
+    padding: 100px 0px;
+}
+.about-me > div {
+    width: 50%;
+    float: left;
+}
+.about-me img {
+    width: 90%;
+}
+.about-me button {
+    margin-top: 40px;
+}
+
+/* Services section */
+.service {
+    padding-top: 100px;
+}
+.service-item {
+    display: inline-block;
+    text-align: center;
+    padding: 60px 30px;
+    background: #f8faff;
+    width: 30%;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+.service-item__title {
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 200x;
+}
+.service-item__link {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+.service-item:hover {
+    background: #5f30ff;
+}
+.service-item:hover .service-item__description,
+.service-item:hover .service-item__link,
+.service-item:hover .service-item__title {
+    color:#fff;
+}
+
+/* Clients Section */
+.clients {
+    padding-top: 100px;
+}
+.clients-info > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.client-picture img{
+    width: 100%;
+}
+.client-name {
+    color: #05364d;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.client-job {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    margin-bottom: 30px;
+}
+.client-opinion {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.client-star {
+    margin-top: 30px;
+}
+.client-star i {
+    color: #ffd804;
+}
+.client-star .disabled {
+    color: #aeb9be;
 }
