@@ -9,8 +9,8 @@
 </head>
 <body>
     <!-- Header -->
-    <div class="container">
-        <header class="main-header">
+    <header class="main-header">
+        <div class="container">
             <div class="main-header__brand">
                 <a href="index.html">
                     <img src="images/logo.jpg" alt="403 error">
@@ -41,8 +41,8 @@
                     </li>
                 </ul>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
     <!-- /Header -->
 
     <!-- Main -->
@@ -186,9 +186,45 @@
     <!-- /Clients -->
 
     <!-- Portfolio -->
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-    </section>
+    <div class="container">
+       <section id="portfolio" class="portfolio">
+            <h5 class="section-subtitle">Our Portfolio</h5><span class="blur-line"></span>
+            <h3 class="section-title">Chech Our Recent<br> Client Work</h3>
+            <ul class="portfolio-filters">
+                <li class="active">All</li>
+                <li>Popular</li>
+                <li>Latest</li>
+                <li>Following</li>
+            </ul>
+            <div class="portfolio-items">
+                <div class="portfolio-item portfolio-item1">
+                    <img src="images/p1.jpg" alt="p1.jpg" class="portfolio-item__img">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4><a href="#">Lens Mockup Design</a></h4>
+                        <p>Art, Illustration</p>
+                    </div>
+                </div>
+                <div class="portfolio-item portfolio-item2">
+                    <img src="images/p4.jpg" alt="p1.jpg" class="portfolio-item__img">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4><a href="#">Lens Mockup Design</a></h4>
+                        <p>Art, Illustration</p>
+                    </div>
+                </div>
+                <div class="portfolio-item portfolio-item3">
+                    <img src="images/p2.jpg" alt="p1.jpg" class="portfolio-item__img">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4><a href="#">Lens Mockup Design</a></h4>
+                        <p>Art, Illustration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <!-- /Portfolio -->
 
     <!--  Blogs -->
