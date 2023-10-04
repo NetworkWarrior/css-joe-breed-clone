@@ -19,13 +19,13 @@ body {
     display: inline-block;
     letter-spacing: 2px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     color: #797979;
     text-transform: uppercase;
 }
 .section-title {
-    margin-top: 5px;
-    font-size: 42px;
+    margin-top: 0.32rem;
+    font-size: 2.62rem;
     font-weight: 700;
     text-transform: capitalize;
     color:#05364d;
@@ -36,8 +36,8 @@ body {
     background-size: 200% auto;
     color: #fff;
     font-weight: 500;
-    font-size: 14px;
-    padding: 20px 40px;
+    font-size: 0.87rem;
+    padding: 1.25rem 1.875rem;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -48,7 +48,7 @@ body {
     display: inline-block;
     position: relative;
     top: -2px;
-    margin-left: 5px;
+    margin-left: 0.32rem;
     width: 80px;
     height: 4px;
     background: rgba(237,35,159,0.6);
@@ -63,12 +63,12 @@ body {
 }
 .item-title {
     color: #05364d;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 200x;
+    margin-bottom: 1.25rem;
 }
 .item-link {
-    font-size: 13px;
+    font-size: 0.81rem;
     font-weight: 700;
     text-transform: uppercase;
     color: #05364d;
@@ -99,14 +99,14 @@ body {
 .main-nav__item {
     display: inline-block;
     text-decoration: none;
-    padding:10px;
+    padding: 0.625rem;
     text-transform: capitalize;
 }
 .main-nav__item a {
     text-decoration: none;
     color: #05364d;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
 }
 .main-nav__item a:hover {

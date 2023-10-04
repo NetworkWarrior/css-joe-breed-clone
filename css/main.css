@@ -6,7 +6,7 @@
     min-height: 890px;
 }
 #main {
-    padding: 100px 30px;
+    padding: 7.5rem 1.87rem;
 }
 .main > div {
     width: 50%;
@@ -16,36 +16,36 @@
     text-align: right;
 }
 .main-info__welcome {
-    margin-bottom: 20px;
-    font-size: 16px;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #79797979;
     letter-spacing: 2px;
 }
 .main-info__intro{
     color: #05364e;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 20px
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 .main-info__position {
     color: #05364d;
-    font-size: 22px;
-    font-weight: 300px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    font-size: 1.375rem;
+    font-weight: 300;
+    margin-top: 0.3125rem;
+    margin-bottom: 1.875rem;
 }
 .main-info__social {
     color: #05363E;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .main-info__social a {
-    margin-right: 16px;
+    margin-right: 1rem;
     color: #8FA1AA;
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
     display: inline-block;
 }
@@ -54,41 +54,41 @@
 }
 
 .main-info__action {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 /* Statistics section */
 .statistic {
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .statistic-item {
     display: inline-block;
     text-align: center;
     background-color: #F8FAFF;
-    padding: 5px 15px;
+    padding: 0.3125rem 0.9375rem;
     border-radius: 5px;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     width: 140px;
 }
 
 .statistic-number {
-    font-size: 27px;
-    margin-bottom: 5px;
+    font-size: 1.6875rem;
+    margin-bottom: 0.31rem;
     background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .statistic-title {
-    font-size: 16px;
+    font-size: 1rem;
     color: #797979;
     font-weight: 300;
 }
 
 /* About-me section */
 .about-me {
-    padding: 100px 0px;
+    padding: 6.25rem 0;
 }
 .about-me > div {
     width: 50%;
@@ -98,17 +98,17 @@
     width: 90%;
 }
 .about-me button {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 /* Services section */
 .service {
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .service-item {
     display: inline-block;
     text-align: center;
-    padding: 60px 30px;
+    padding: 3.75rem 1.875rem;
     background: #f8faff;
     width: 30%;
     margin-right: 3%;
@@ -125,7 +125,7 @@
 
 /* Clients Section */
 .clients {
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .clients-info > div {
     width: 50%;
@@ -138,21 +138,21 @@
 .client-name {
     color: #05364d;
     font-weight: 800;
-    font-size: 20px;
-    margin-bottom: 4px;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
 }
 .client-job {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     color: #797979;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .client-opinion {
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 3.125rem;
+    padding-left: 3.125rem;
 }
 .client-star {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 .client-star i {
     color: #ffd804;
@@ -163,17 +163,17 @@
 
 /* Portfolio styles */
 .portfolio {
-    padding: 100px 0;
+    padding: 6.25rem 0;
 }
 .portfolio-filters {
     list-style: none;
     padding-left: 0px;
-    margin-top: 90px;
+    margin-top: 5.625rem;
 }
 .portfolio-filters li {
     display: inline-block;
-    margin-right: 40px;
-    font-size: 13px;
+    margin-right: 2.5rem;
+    font-size: 0.8125rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -191,7 +191,7 @@
     display: inline-block;
     position: relative;
     width: 50%;
-    padding: 10px;
+    padding: 0.625rem;
     box-sizing: border-box;
 }
 .portfolio-item1{
@@ -265,21 +265,21 @@
     cursor: pointer;
 }
 .blog-item__info {
-    padding: 30px;
+    padding: 1.875rem;
 }
 .blog-item__main-info span {
-    margin-right: 30px;
-    font-size: 14px;
+    margin-right: 1.875rem;
+    font-size: 0.87rem;
     font-weight: lighter;
 }
 .blog-item__main-info span i {
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .blog-item__title:hover {
     cursor: pointer;
 }
 .blog-item__description {
-    line-height: 27px;
+    line-height: 1.6875rem;
 }
 .blog-item__link:hover {
     color: #ed239f;
@@ -287,9 +287,9 @@
 
 /* Partners Section */
 #partners {
-    padding: 100px 0;
+    padding: 6.25rem 0;
 }
 .partner {
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 1.875rem;
 }

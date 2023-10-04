@@ -1,5 +1,5 @@
 .contacts {
-    padding: 100px 20px;
+    padding: 6.25rem 1.25rem;
 }
 .contact-form {
     width: 70%;
@@ -7,13 +7,13 @@
 
 textarea, input {
     width: 100%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 0.9375rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
     border: 1px solid #f0e9ff;
-    border-radius: 5px;
-    padding-left: 18px;
-    font-size: 13px;
+    border-radius: 0.3125rem;
+    padding-left: 1.125rem;
+    font-size: 0.8125rem;
     background: transparent;
     color: #495057;
 }
@@ -28,12 +28,12 @@ input:focus {
     box-sizing:border-box;
 }
 .contact-name {
-    padding-right: 30px;
+    padding-right: 1.875rem;
 }
 .contact-email {
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 
 .contacts button {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
