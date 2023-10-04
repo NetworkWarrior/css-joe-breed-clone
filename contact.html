@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/cantact.css">
+    <link rel="stylesheet" href="./css/shared.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__brand">
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="403 error">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">About Me</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Clients</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Blogs</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Partners</a>
+                    </li>
+                    <li class="main-nav__item active">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /Header -->
+    <div class="container">
+        <section class="contacts">
+            <div class="contact-form">
+                <h4 class="item-title">Get In touch</h4>
+                <form action="baseviews.py" method="get">
+                    <textarea placeholder="Enter Message" rows="15"></textarea>
+                    <div class="half-row contact-name">
+                        <input id="name" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="half-row contact-email">
+                       <input id="email" type="email" placeholder="Enter your email">
+                    </div>
+                    <input id="subject" type="text" placeholder="Enter your Subject">
+                    <button type="submit" class="button">SEND MESSAGE</button>
+                </form>
+            </div>
+            <div class="contact-adress">
+
+            </div>
+        </section>
+    </div>
+</body>
