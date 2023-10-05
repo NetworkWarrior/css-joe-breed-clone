@@ -293,3 +293,130 @@
     display: inline-block;
     padding: 0 1.875rem;
 }
+
+@media only screen and (max-width: 961px){
+    /* main section */
+    .main-image {
+        display: none;
+    }
+    .main > div {
+        width: 100%;
+    }
+
+    /* statistics section */
+    .statistic {
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    /* about-me section */
+    .about-me img {
+        display: none;
+    }
+    .about-me > div {
+        width: 100%;
+    }
+    .about-me {
+        padding: 1.5rem 0;
+    }
+
+    /* services section */
+    .service {
+            padding: 1.5rem;
+        }
+    .service-item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    /* Clients section */
+    .clients-info > div {
+        width: 100%;
+        float: none;
+    }
+    .clients {
+        padding: 1.5rem 0;
+    }
+
+    /* blogs section */
+    .blogs {
+        padding: 1.5rem 0;
+    }
+    .blog-item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    /* partners section */
+    #partners {
+        padding: 1.5rem 0;
+    }
+    .partner {
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    /* Main Section */
+    .main-image {
+        display: none;
+    }
+    .main-banner {
+        background: none;
+        min-height: auto;
+    }
+    .main-info__action {
+        display: none;
+    }
+    .main-info__intro {
+        font-size: 2.8rem;
+    }
+    /* statistics section */
+    .statistic-item {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* services section */
+    .service-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+    }
+
+    /* blogs section */
+    .blog-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+    }
+
+
+    /* portfolio section */
+    .portfolio-item {
+        width: 100%;
+    }
+    .portfolio {
+        padding: 1.5rem;
+    }
+    .portfolio-item2,
+    .portfolio-item3 {
+        position: static;
+    }
+}
