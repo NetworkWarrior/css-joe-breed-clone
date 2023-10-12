@@ -7,10 +7,8 @@
 }
 #main {
     padding: 7.5rem 1.87rem;
-}
-.main > div {
-    width: 50%;
-    float: left;
+    display: flex;
+    justify-content: space-between;
 }
 .main-image{
     text-align: right;
@@ -60,10 +58,10 @@
 /* Statistics section */
 .statistic {
     padding-top: 6.25rem;
+    display: flex;
 }
 
 .statistic-item {
-    display: inline-block;
     text-align: center;
     background-color: #F8FAFF;
     padding: 0.3125rem 0.9375rem;
@@ -89,10 +87,11 @@
 /* About-me section */
 .about-me {
     padding: 6.25rem 0;
+    display: flex;
+    align-items: center;
 }
 .about-me > div {
-    width: 50%;
-    float: left;
+    flex: 1;
 }
 .about-me img {
     width: 90%;
@@ -105,14 +104,17 @@
 .service {
     padding-top: 6.25rem;
 }
+.service-items {
+    display: flex;
+    justify-content: space-between;
+}
 .service-item {
-    display: inline-block;
     text-align: center;
     padding: 3.75rem 1.875rem;
     background: #f8faff;
-    width: 30%;
     margin-right: 3%;
     box-sizing: border-box;
+    transition: all 0.4s ease 0s;
 }
 .service-item:hover {
     background: #5f30ff;
@@ -127,10 +129,12 @@
 .clients {
     padding-top: 6.25rem;
 }
+.clients-info {
+    display: flex;
+    align-items: center;
+}
 .clients-info > div {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
+    flex: 1;
 }
 .client-picture img{
     width: 100%;
@@ -148,7 +152,6 @@
     margin-bottom: 1.875rem;
 }
 .client-opinion {
-    padding-top: 3.125rem;
     padding-left: 3.125rem;
 }
 .client-star {
@@ -216,9 +219,8 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgb(19,69,230,0.9);
-    visibility: hidden;
     z-index: 1;
+    transition: all 0.4s ease 0s;
 }
 .portfolio-item__info {
     position: absolute;
@@ -226,6 +228,7 @@
     left: 80px;
     color: #ffffff;
     visibility: hidden;
+    opacity: 0;
 }
 .portfolio-item__info a {
     text-decoration: none;
@@ -235,21 +238,30 @@
     left: 20px;
     top: 20px;
     visibility: visible;
+    background: rgb(19,69,230,0.9);
 }
 .portfolio-item:hover .portfolio-item__info {
     visibility: visible;
     left: 60px;
     bottom: 24px;
     z-index: 2;
+    opacity: 1;
 }
 
 /* Blog Styles */
+.blog-items {
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+}
 .blog-item {
-    display: inline-block;
-    width: 30%;
     margin-right: 3%;
     box-sizing: border-box;
     background: #f8faff;
+    overflow: hidden;
+}
+.blog-item__image {
+    overflow: hidden;
 }
 .blog-item:hover {
     box-shadow: 0px 10px 20px rgba(5,54,77,0.1);
@@ -257,7 +269,11 @@
 }
 .blog-item__image img{
     width: 100%;
-    height: auto;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+.blog-item:hover img {
+    transform: scale(1.1)
 }
 .blog-item__author:hover,
 .blog-item__date:hover {
@@ -288,13 +304,14 @@
 /* Partners Section */
 #partners {
     padding: 6.25rem 0;
+    display: flex;
+    justify-content: space-between;
 }
 .partner {
-    display: inline-block;
     padding: 0 1.875rem;
 }
 
-@media only screen and (max-width: 961px){
+@media only screen and (max-width: 991px){
     /* main section */
     .main-image {
         display: none;
@@ -307,6 +324,7 @@
     .statistic {
         padding-top: 1rem;
         text-align: center;
+        justify-content: center;
     }
 
     /* about-me section */
